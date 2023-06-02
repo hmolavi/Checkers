@@ -15,18 +15,11 @@ Player player2;
 Board gameBoard;
 
 void setup(){
-  
-  // Set the size of the board
   size(1000,1000);
-  
-  // Create the board
   gameBoard = new Board(50, width, height);
-  
-  // Creating the players
   player1 = new Player(nameP1, colorP1, 1 );
   player2 = new Player(nameP2, colorP2, 2 );
 
-  // Draw the board and pieces on the screen
   gameBoard.drawBoard();  
   player1.drawPieces();
   player2.drawPieces();
