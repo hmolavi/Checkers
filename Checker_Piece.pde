@@ -36,8 +36,5 @@ class Checker_Piece{
       }
     }
   }
-  
-  
 }  
-  
   
