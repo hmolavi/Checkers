@@ -1,8 +1,3 @@
-// Game Rules:
-// Rule #1: if you can hop opver an opponent piece, you must hop!
-// Rule #2: you must complete all of your hops for your turn to be over
-// Rule #3: your piece becomes a king i.e(can move backwards) once it reaches your opponents side
-
 
 String nameP1 = "Player1";
 color colorP1 = color(235,64,52);
